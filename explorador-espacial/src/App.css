@@ -1,0 +1,17 @@
+body{background-image: url(/imagenes/Nave-web.jpg);background-size: cover;}
+.press-start-2p-regular {font-family: "Press Start 2P", system-ui;font-weight: 400; font-style: normal;}
+.menu{color: rgb(105, 138, 247);font-family: "Press Start 2P", system-ui; text-shadow:0 0 5pt rgb(46, 91, 240), 0 0 8pt #04034d, 0 0 3pt #0b2ad4;font-size: 20px;display: flex;gap: 10%;justify-content: center;background-color: rgba(0, 0, 0, 0.8);border-radius: 40%;}
+.planetadet{width: 30%;margin-left: 70%;display: flex;justify-content: center;flex-direction: column;align-items: center;background-color: rgba(0, 0, 0, 0.9);border-radius: 10%;}
+.nombre{color: rgb(105, 138, 247);font-family:"Press Start 2P", system-ui;text-shadow:0 0 5pt rgb(46, 91, 240), 0 0 8pt #04034d, 0 0 3pt #0b2ad4;}
+.planetainfo{display: none;justify-content: center;}
+.planetadet:hover .planetainfo{ display:flex}
+.imagen{width: 40%;height: auto;align-items: center;}
+.Descripcion{color: aliceblue;padding-left: 4px;}
+/* Empiezo con el estilo del formulario */
+.nombrein, .descripin, .imgin {height: 30px;width: 60%;background-color: black;box-shadow: 0 0 2pt rgb(79, 126, 245), 0 0 5pt rgb(46, 91, 240);border-color: #405bf5;color: white;}
+input[type="file"]::file-selector-button{background-color: black;color: white;}
+.formcon{display: flex; flex-wrap: wrap;gap: 10px;width:40%;margin-top: -5%;}
+.btnate{background-color: red;box-shadow: 0 0 2pt rgb(240, 76, 76), 0 0 5pt rgb(234, 33, 33);margin-top: 18%;margin-left: 30%;width: 10%;color: white;}
+.btnagre{background-color: green;box-shadow: 0 0 2pt rgb(125, 255, 85), 0 0 5pt rgb(55, 193, 13);color: white;width: 10%;margin-left: 20%}
+/*Empiezo con planeta visitado*/
+.planetavisit{font-family: "Press Start 2P", system-ui;font-size: 18px;}
